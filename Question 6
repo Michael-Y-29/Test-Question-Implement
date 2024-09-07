@@ -1,0 +1,18 @@
+Question 6:
+
+my_array = [8,1,-6,9,15,7,2]
+def highest_value(my_array):
+    max = my_array[0]
+    for i in range (len(my_array)-1):
+        if my_array[i] > max:
+            max = my_array[i]
+            print(max) 
+Turn to function
+
+my_array = [8,1,-6,9,15,7,2]
+def highest_value(my_array):
+    max = my_array[0]
+    for i in range (len(my_array)-1):
+        if my_array[i] > max:
+            max = my_array[i]
+            return max
