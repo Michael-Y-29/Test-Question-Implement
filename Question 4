@@ -1,0 +1,9 @@
+Question4: 
+
+num = 0
+total = 0
+for i in range(10):
+    num = int(input("Please enter a non-negative integar: "))
+    total = total + num
+
+print("The total of the ten numbers are: ",total)
