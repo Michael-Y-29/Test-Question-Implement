@@ -1,0 +1,4 @@
+#Question 1:
+userinput = str(input())
+print(userinput[len(userinput)-1],userinput[1:len(userinput)-1],userinput[0])
+
