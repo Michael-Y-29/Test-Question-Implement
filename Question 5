@@ -1,0 +1,13 @@
+Question 5:
+
+num = 0
+total = 0
+count = 0
+while num >= 0:
+    num = int(input("Please enter an integer: "))
+    total = total + num
+    count = count + 1
+    if num < 0:
+        total = total / count
+        print(total)
+        break
