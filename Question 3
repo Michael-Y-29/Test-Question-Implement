@@ -1,0 +1,13 @@
+Question4:
+
+min1 = int(input())
+min2 = min1 % 60
+hour = min1 // 60
+if hour < 10:
+    hour = str(hour)
+    hour = "0" + hour
+
+if  min2 < 10:
+    min2 = str(min2)
+    min2 = "0" + min2
+print(hour,":",min2)
