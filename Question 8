@@ -1,0 +1,13 @@
+Question 8:
+
+a = input()
+a = a.replace('1', 'one')
+a = a.replace('2','two')
+a = a.replace('3','three')
+a = a.replace('4','four')
+a = a.replace('5','five')
+a = a.replace('6','six')
+a = a.replace('7','seven')
+a = a.replace('8','eight')
+a = a.replace('9','nine')
+print(a)
